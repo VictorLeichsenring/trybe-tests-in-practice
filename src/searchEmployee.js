@@ -38,15 +38,17 @@ const professionalBoard = [
 ];
 
 const searchEmployee = (id, employeeInfo) => {
-  const employee = professionalBoard.find(employee => employee.id === id);
-  if (!employee) {
+  const employeeData = professionalBoard.find((currentEmployee) => currentEmployee.id === id);
+  
+  if (!employeeData) {
     throw new Error('ID não identificado');
   }
-  if (!employee.hasOwnProperty(employeeInfo)) {
+  
+  if (!Object.prototype.hasOwnProperty.call(employeeData, employeeInfo)) {
     throw new Error('Informação indisponível');
   }
-  return employee[employeeInfo];
-};
 
+  return employeeData[employeeInfo];
+};
 
 module.exports = searchEmployee;
