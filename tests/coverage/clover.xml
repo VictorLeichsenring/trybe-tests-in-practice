@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688101843712" clover="3.2.0">
-  <project timestamp="1688101843712" name="All files">
-    <metrics statements="14" coveredstatements="10" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1" elements="21" coveredelements="11" complexity="0" loc="14" ncloc="14" packages="1" files="3" classes="3"/>
+<coverage generated="1688102660012" clover="3.2.0">
+  <project timestamp="1688102660013" name="All files">
+    <metrics statements="14" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2" elements="21" coveredelements="19" complexity="0" loc="14" ncloc="14" packages="1" files="3" classes="3"/>
     <file name="printMessage.js" path="/home/victor/Documentos/trybe/trybe-projetos/sd-034-exercise-tests-in-practice/src/printMessage.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
@@ -19,10 +19,10 @@
       <line num="45" count="1" type="stmt"/>
     </file>
     <file name="sum.js" path="/home/victor/Documentos/trybe/trybe-projetos/sd-034-exercise-tests-in-practice/src/sum.js">
-      <metrics statements="4" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <line num="2" count="0" type="cond" truecount="0" falsecount="4"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="6" count="0" type="stmt"/>
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
       <line num="9" count="1" type="stmt"/>
     </file>
   </project>
