@@ -1,5 +1,4 @@
 const { info, printMessage } = require('../src/printMessage');
-//inciando o projeto
 
 describe('2 - Implemente o caso de teste para a função `printMessage`', () => {
   it ('Testa a propriedade personagem no objeto.', () => {
